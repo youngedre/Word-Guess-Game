@@ -9,28 +9,33 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Word Guess Game</title>
 </head>
-<body>
-        <div class="jumbotron jumbotron-fluid">
-                <div class="container">
+<body class="bg-danger">
+    <div class="body-background">
+                        <img src="data:image/jpeg;base64,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" class="background ">
+                      </div>   
+        <div class="jumbotron jumbotron-fluid bg-dark text-white" id=jumbotron>
+                
+            <div class="container">
                   <h1 class="display-4">Welcome to NBA Hangman</h1>
                   <p class="lead">Press Any Key To Get Started!</p>
+                  
                 </div>
               </div>
               <div class="row">
-              <div class="card col-lg-6 bg-light mb-3">
+              <div class="card col-lg-6 text-white bg-dark mb-3">
                     <div class="card-header">Your Missed Letters:</div>
                     <div class="card-body">
                       <p id=missedLetter> </p>
                     </div>
                   </div>
-                  <div class="card col-lg-6 bg-light mb-3">
+                  <div class="card col-lg-6 text-white bg-dark mb-3">
                         <div class="card-header">Word To Guess:</div>
                         <div class="card-body">
                           <p id="word-blanks"></p>
                         </div>
                       </div>
                 </div>
-              <div class="card bg-light mb-3">
+              <div class="card bg-dark text-white mb-3">
                     <div class="card-header">Your Stats:</div>
                     <div class="card-body">
                       <h5 class="card-title">Guesses Left: <p id="guesses-left"></p></h5>

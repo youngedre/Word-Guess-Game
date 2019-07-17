@@ -9,12 +9,10 @@ var wordBank = ["hawks" , "celtics" , "nets" ,
   var wins = 0;
   var loss = 0;
   
-    
-  
-  
     function newGame(){
     var wrongLetter = [];
     wrongLetter.push();
+    document.getElementById("missedLetter").innerHTML = wrongLetter.join(", ");
   var guessLeft = 9;
   var underScores = [];
   var alphabet = /^[a-zA-Z]+$/;

@@ -4,3 +4,19 @@
 p {
     font-size: 25px;
 }
+.jumbotron .container {
+    position:relative;
+    z-index:2;
+    
+    
+  }
+   .body-background {
+    object-fit:cover;
+    font-family: 'object-fit: cover;';
+    position:absolute;
+    z-index:1;
+    width:500%;
+    height:500%;
+    left: 800px;
+    top: 50px;
+  }
