@@ -12,4 +12,4 @@ As the came continues players will notice a record being displayed of games won 
 * word.js
 * index.js
 
-try out here: https://youngedre.github.io/Word-Guess-Game/
+## Try out here: https://youngedre.github.io/Word-Guess-Game/
