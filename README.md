@@ -1,4 +1,4 @@
-# Word-Guess-Game
+# Word-Guess-Game 
 Welcome to the NBA version of Hangman!
 ## Overveiw
 This game features a word bank of NBA team names and gives the player 9 tries to correctly guess the letters that make up each word
@@ -11,3 +11,5 @@ As the came continues players will notice a record being displayed of games won 
 * letter.js
 * word.js
 * index.js
+
+try out here: https://youngedre.github.io/Word-Guess-Game/
